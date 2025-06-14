@@ -1,17 +1,9 @@
 ---
 title: v2ray配置教程
-author: Z.C Yang
+name: Z.C Yang
 date: 2025-06-13 11:00:00 -0500
 categories: [服务器]
 tags: [v2ray]
----
-
----
-title: A Quick Tutorial on Use-package for Emacs
-author: Ian Y.E. Pan
-date: 2021-05-12 21:18:00 +0800
-categories: [Emacs]
-tags: [linux, emacs, tutorial, tips, workflow, programming]
 ---
 
 # 1. 服务器环境准备

@@ -1,6 +1,6 @@
 ---
 title: chirpy静态站点搭建
-author: Z.C Yang
+name: Z.C Yang
 date: 2025-06-13 10:00:00 -0500
 categories: [建站]
 tags: [chirpy]
