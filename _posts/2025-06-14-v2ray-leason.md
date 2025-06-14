@@ -263,7 +263,7 @@ iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 
 
 
-浏览器访问个人域名（例如 [http://us.testip.cn/](http://us.testip.cn/)）域名进行测试，可以看到nginx欢迎页。
+浏览器访问个人域名（例如 [https://us.testip.cn/](https://us.testip.cn/)）域名进行测试，可以看到nginx欢迎页。
 
 
 
@@ -419,7 +419,7 @@ iptables -I INPUT -p tcp --dport 8443 -j ACCEPT
 
 
 
-浏览器访问个人域名（例如 [https://us.testip.cn:8443](http://us.testip.cn:8443) ）进行测试，可以看到nginx欢迎页。
+浏览器访问个人域名（例如 [https://us.testip.cn:8443](https://us.testip.cn:8443) ）进行测试，可以看到nginx欢迎页。
 
 
 
