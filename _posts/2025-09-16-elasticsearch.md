@@ -9,16 +9,19 @@ tags: [elasticsearch]
 ## kibana控制台操作elasticsearch
 
 - 查看所有节点：
+
 ```bash
 GET _cat/node
 ```
 
 - 查看所有索引
+
 ```bash
 GET _cat/indices?v
 ```
 
 - 创建book索引（无crateTime字段，匹配现有数据结构）
+
 ```bash
 PUT book
 {
@@ -46,6 +49,7 @@ PUT book
 ```
 
 - 查看book索引数据
+
 ```bash
 GET book/_search
 {
@@ -58,6 +62,7 @@ GET book/_search
 ```
 
 - 添加一条数据
+
 ```bash
 POST book/_doc
 {
@@ -67,6 +72,7 @@ POST book/_doc
 ```
 
 - 更新数据
+
 ```bash
 PUT book/_doc/yikqWJkBtsl_BYdV0VRk
 {
@@ -77,6 +83,7 @@ PUT book/_doc/yikqWJkBtsl_BYdV0VRk
 ```
 
 - 删除数据
+
 ```bash
 POST book/_delete_by_query
 {
@@ -90,6 +97,7 @@ POST book/_delete_by_query
 
 
 - 批量插入数据
+
 ```bash
 POST book/_bulk
 { "index":{} }
