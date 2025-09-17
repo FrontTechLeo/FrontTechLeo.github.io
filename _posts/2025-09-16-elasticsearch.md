@@ -19,7 +19,7 @@ GET _cat/indices?v
 ```
 
 - 创建book索引（无crateTime字段，匹配现有数据结构）
-```json
+```bash
 PUT book
 {
   "settings": {
@@ -46,7 +46,7 @@ PUT book
 ```
 
 - 查看book索引数据
-```json
+```bash
 GET book/_search
 {
   "query": {
@@ -58,7 +58,7 @@ GET book/_search
 ```
 
 - 添加一条数据
-```json
+```bash
 POST book/_doc
 {
   "page": 8,
@@ -67,7 +67,7 @@ POST book/_doc
 ```
 
 - 更新数据
-```json
+```bash
 PUT book/_doc/yikqWJkBtsl_BYdV0VRk
 {
   "page": 8,
@@ -77,7 +77,7 @@ PUT book/_doc/yikqWJkBtsl_BYdV0VRk
 ```
 
 - 删除数据
-```json
+```bash
 POST book/_delete_by_query
 {
   "query": {
@@ -90,7 +90,7 @@ POST book/_delete_by_query
 
 
 - 批量插入数据
-```json
+```bash
 POST book/_bulk
 { "index":{} }
 { "page":22 , "content": "Adversity, steeling will strengthen body.逆境磨练意志，锻炼增强体魄。"}
